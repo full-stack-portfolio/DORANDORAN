@@ -1,0 +1,121 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* mypage 유저 정보 CSS */
+.mypage-update-wrapper {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 100px;
+}
+
+.mypage-update-wrapper .mypage-main-wrapper {
+    flex: 1;
+    padding: 30px;
+    background-color: #D7FFE1;
+    border-radius: 50px;
+}
+
+.mypage-update-wrapper .user-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.mypage-update-wrapper .mypage-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+#image .main-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 375px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.mypage-update-wrapper .mypage-nickname.edit {
+    font-family: '양진체';
+    font-size: 20px;
+    font-weight: 400;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(255,255,255,1);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage-update-wrapper .mypage-id {
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mypage-update-wrapper .mypage-user {
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+}
+
+.mypage-update-wrapper .mypage-state-message,
+.mypage-update-wrapper .mypage-user,
+.mypage-update-wrapper .mypage-discussion-room {
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-content: end;
+}
+
+.mypage-update-wrapper .mypage-state-message.edit {
+    width: 514px;
+    height: 62px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+}
+
+.mypage-update-wrapper .edit-button-box {
+    position: absolute;
+    right: 0px;
+    margin-bottom: 50px;
+}
+
+.mypage-update-wrapper .edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.mypage-update-wrapper .edit-button.complete {
+    background-color: rgba(76,245,39,0.8);
+    color: rgba(75,115,100,1);
+}
+
+.mypage-update-wrapper .edit-button.fail {
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(215, 224, 213, 0.8);
+}

@@ -1,0 +1,37 @@
+.report-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-modal-content {
+    text-align: center;
+    padding: 0px 20px;
+    /* width: 400px; */
+}
+
+.report-modal-labels {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-buttons button {
+    border: #B4B4B4;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+
+.modal-buttons {
+    gap: 10px;
+    display: flex;
+    justify-content: end;
+}

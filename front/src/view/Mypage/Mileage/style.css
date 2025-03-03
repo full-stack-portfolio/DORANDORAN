@@ -1,0 +1,183 @@
+#mypage-mileage-main-wrapper {
+    display: flex;
+}
+
+#mypage-mileage {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#mypage-mileage .mileage-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mypage-mileage .summary-current {
+    justify-content: center;
+    /* font-size: 26px; */
+    font-weight: bold;
+}
+
+#mypage-mileage .summary-current strong {
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#mypage-mileage .summary-divider {
+    height: 40px;
+    width: 1px;
+    background-color: #ddd;
+    /* margin: 0 20px; */
+}
+
+#mypage-mileage .summary-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#mypage-mileage .summary-details div {
+    font-size: 14px;
+    color: #666;
+}
+
+#mypage-mileage .section-divider {
+    margin: 30px 0;
+    border-top: 1px solid #ddd;
+}
+
+#mypage-mileage .filter-controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+#mypage-mileage .date-filters,
+#mypage-mileage .preset-filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mypage-mileage .filter-button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#mypage-mileage .filter-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+#mypage-mileage .filter-button:hover {
+    background-color: #e0e0e0;
+}
+
+#mypage-mileage .filter-reset {
+    padding: 8px 16px;
+    background-color: #367ff4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mypage-mileage .filter-reset:hover {
+    background-color: #2f55d3;
+}
+
+#mypage-mileage .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#mypage-mileage .history-table th,
+#mypage-mileage .history-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+#mypage-mileage .history-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+#mypage-mileage .history-table td {
+    background-color: #ffffff;
+}
+
+#mypage-mileage .history-table tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+
+/* 환급 신청 */
+#mypage-mileage .refund-section {
+    margin-top: 30px;
+}
+
+#mypage-mileage .refund-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#mypage-mileage .refund-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#mypage-mileage .refund-form input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#mypage-mileage .refund-remaining {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#mypage-mileage .refund-button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #367ff4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#mypage-mileage .refund-button:hover {
+    background-color: #2f55d3;
+}

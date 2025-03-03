@@ -1,0 +1,57 @@
+.mypage-attendance-wrapper {
+  /* box-sizing: border-box; */
+  width: 1000px;
+  padding: 80px;
+
+  background-color: #FBFBFB;
+  border-radius: 50px;
+
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mypage-attendance-wrapper #main-calendar {
+  width: 80%;
+}
+
+.mypage-attendance-wrapper #main-calendar .fc-day {
+  background-color: white;
+}
+
+.mypage-attendance-wrapper #main-calendar .fc .fc-bg-event {
+  opacity: 1;
+}
+
+.attendance-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.attendance-check {
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/mypage/attendance.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* FullCalendar에서 이벤트 박스 기본 스타일 제거 */
+.fc-daygrid-events {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: none !important;
+  padding: 0 !important;
+}

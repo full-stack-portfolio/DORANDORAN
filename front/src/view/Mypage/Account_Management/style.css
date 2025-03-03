@@ -1,0 +1,134 @@
+
+#account-management-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#account-management-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 80px;
+    background-color: #FBFBFB;
+    border-radius: 50px;
+}
+
+#account-management-main-wrapper h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#account-management-main-wrapper .account-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#account-management-main-wrapper .bank-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#account-management-main-wrapper .bank-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#account-management-main-wrapper .bank-option:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#account-management-main-wrapper .bank-option.selected {
+    background-color: #367ff4;
+    color: white;
+}
+
+#account-management-main-wrapper input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+#account-management-main-wrapper .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #367ff4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#account-management-main-wrapper .register-button:hover {
+    background-color: #2f55d3;
+}
+
+#account-management-main-wrapper .registered-accounts h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#account-management-main-wrapper .accounts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#account-management-main-wrapper .account-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#account-management-main-wrapper .bank-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #367ff4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#account-management-main-wrapper .account-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#account-management-main-wrapper .account-alias {
+    font-weight: bold;
+}
+
+#account-management-main-wrapper .account-number {
+    font-size: 14px;
+    color: gray;
+}
+
+#account-management-main-wrapper .delete-icon {
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s;
+}
+
+#account-management-main-wrapper .delete-icon:hover {
+    color: darkred;
+}

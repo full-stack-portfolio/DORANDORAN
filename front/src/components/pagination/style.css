@@ -1,0 +1,56 @@
+.pagination-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 37%;
+    margin-top: 20px
+}
+
+.left-button,
+.right-button {
+    line-height: 50px;
+}
+
+.left-button {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40px;
+    height: 40px;
+
+    background-size: 100% 100%;
+
+    cursor: pointer;
+}
+
+.right-button {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+
+    background-size: 100% 100%;
+
+    cursor: pointer;
+}
+
+.page-list {
+    display: flex;
+    gap: 16px;
+}
+
+.page {
+    color: rgba(138, 146, 166, 1);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+
+    cursor: pointer;
+}
+
+.page.active {
+    color: black;
+
+    font-weight: 700;
+    cursor: default;
+}

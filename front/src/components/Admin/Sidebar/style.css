@@ -1,0 +1,43 @@
+.admin-side-wrapper {
+
+    width: 220px;
+    padding: 20px 0px;
+    
+}
+.admin-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+    
+}
+
+.admin-menu-box {
+    width: 214px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.admin-menu-item {
+    display: inline-block;
+    font-size: 20px;
+
+    padding: 5px 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.admin-menu-item:hover {
+    
+    background-color: rgba(0,0,0,0.2);
+    
+}
+.admin-menu-item.clicked {
+    font-weight: bold;
+}

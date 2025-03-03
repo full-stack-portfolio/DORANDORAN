@@ -1,0 +1,33 @@
+#footer {
+    border-top: 1px solid #D2D2D2;
+    width: 100%;
+    opacity: 0.875;
+    align-self: flex-end;
+    margin-top: 150px;
+}
+
+#footer .footer-in-box {
+    display: flex;
+    width: 64%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 50px 0px;
+    gap: 30px;
+}
+
+#footer .footer-title-logo {
+    text-align: left;
+    font-size: 16px;
+
+    padding-right: 30px;
+    border-right: 1px solid #D2D2D2;
+}
+
+#footer .footer-content {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+}

@@ -1,0 +1,283 @@
+#admin-mypage-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#admin-mypage-wrapper .mypage-main-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #FBFBFB;
+    padding: 80px;
+}
+
+#admin-mypage-wrapper .send-mileage-box {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 20px;
+}
+
+#admin-mypage-wrapper .send-mileage {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #FBFBFB;
+    padding: 80px;
+}
+
+#admin-mypage-wrapper .input-box {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#admin-mypage-wrapper .input-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+#admin-mypage-wrapper .input-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#admin-mypage-wrapper .send-mileage-button-box {
+    display: flex;
+    align-items: end;
+    width: 100%;
+}
+
+#admin-mypage-wrapper .send-mileage-button {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(92, 123, 218);
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#admin-mypage-wrapper .send-mileage-button:hover {
+    background-color: rgb(75, 100, 200);
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.radio-label {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.radio-label:hover {
+    background-color: #ddd;
+}
+
+.radio-label input {
+    display: none;
+}
+
+.radio-label.active {
+    background-color: rgb(92, 123, 218);
+    color: white;
+}
+
+#custom-reason {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#admin-mypage-wrapper .send-mileage-button-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#admin-mypage-wrapper .send-mileage-button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(92, 123, 218);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#admin-mypage-wrapper .send-mileage-button:hover {
+    background-color: rgb(70, 100, 200);
+}
+
+#admin-mypage-wrapper .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+#admin-mypage-wrapper .radio-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#admin-mypage-wrapper .radio-label input {
+    accent-color: #367ff4;
+}
+
+#admin-mypage-wrapper .refund-table {
+    margin-top: 15px;
+}
+
+#admin-mypage-wrapper .action-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+#admin-mypage-wrapper .approve-btn {
+    background-color: #f1f1f1;
+    margin-right: 3px;
+}
+
+#admin-mypage-wrapper .approve-btn:hover {
+    background-color: #ddd;
+}
+
+#admin-mypage-wrapper .reject-btn {
+    background-color: #f1f1f1;
+    margin-left: 3px;
+}
+
+#admin-mypage-wrapper .reject-btn:hover {
+    background-color: #ddd;
+}
+
+#mypage-mileage {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#mypage-mileage .mileage-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mypage-mileage .refund-button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #367ff4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#mypage-mileage .refund-button:hover {
+    background-color: #2f55d3;
+}
+
+#mypage-mileage .filter-button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#mypage-mileage .filter-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+#mypage-mileage .filter-button:hover {
+    background-color: #e0e0e0;
+}
+
+.refund-table, .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.refund-table th, .history-table th,
+.refund-table td, .history-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.refund-table th, .history-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.refund-table tr:nth-child(even) td,
+.history-table tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+
+#admin-mypage-wrapper .filter-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#admin-mypage-wrapper .filter-button {
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#admin-mypage-wrapper .filter-button.active {
+    background-color: #367ff4;
+    color: white;
+}
+
+
+#admin-mypage-wrapper .accuse-title {}

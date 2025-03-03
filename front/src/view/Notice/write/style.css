@@ -1,0 +1,103 @@
+#notice-write {
+    display: flex;
+    flex-direction: column;
+}
+
+#notice-write .title-box {
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 1px solid #b4b4b4;
+    border-top: 1px solid #b4b4b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#notice-write .title-box .title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+
+    text-align: center;
+}
+
+#notice-write .title-box .title-input {
+    font-size: 12px;
+    border: none;
+    width: 800px;
+}
+
+#notice-write .contents {
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 1px solid #b4b4b4;
+    height: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#notice-write .image {
+    margin-top: 10px;
+}
+
+#notice-write .btn-box {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#notice-write .btn-box .register {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ABF6BE;
+    border-radius: 6px;
+    border: 1px solid #ABF6BE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#notice-write .btn-box .register:hover {
+    background-color: #79eb96;
+    border: 1px solid #79eb96;
+}
+
+#notice-write .btn-box .cancle {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b4b4b4;
+    border-radius: 6px;
+    border: 1px solid #b4b4b4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#notice-write .btn-box .cancle:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#notice-write .top-box {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+#notice-write .topPin {
+    
+    font-size: 15px;
+    font-weight: 400;
+}

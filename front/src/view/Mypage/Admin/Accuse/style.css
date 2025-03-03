@@ -1,0 +1,165 @@
+.accuse-title-box {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.accuse-title {
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: none;
+}
+
+.accuse-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    /* border-top : 1px solid rgba(0,0,0,0.3); */
+    width: 900px;
+    padding-top: 10px;
+}
+
+.accuse-type {
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accuse-type::after {
+    content: '';
+
+    position: absolute;
+    bottom: -2px;
+
+    left: 0;
+    width: 0;
+
+    height: 2px;
+
+    background-color: black;
+
+    transition: width 0.3s ease;
+}
+
+.accuse-type.active::after {
+    width: 100%;
+}
+
+.accuse-table2 {
+    display: flex;
+    width: 900px;
+    height: 50px;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.accuse-th,
+.accuse-tr {
+    flex: 1;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 15px;
+}
+
+/* 신고 사유가 6번째 div라면 nth-child를 사용 */
+.accuse-table2>.accuse-th:nth-child(1),
+.accuse-table2>.accuse-tr:nth-child(1) {
+    flex: none;
+    width: 50px;
+}
+
+.accuse-table2>.accuse-th:nth-child(2),
+.accuse-table2>.accuse-tr:nth-child(2) {
+    flex: none;
+    width: 100px;
+}
+
+.accuse-table2>.accuse-th:nth-child(5),
+.accuse-table2>.accuse-tr:nth-child(5) {
+    flex: none;
+    width: 200px;
+}
+
+.accuse-table2>.accuse-th:nth-child(3),
+.accuse-table2>.accuse-tr:nth-child(3),
+.accuse-table2>.accuse-th:nth-child(4),
+.accuse-table2>.accuse-tr:nth-child(4) {
+    flex: none;
+    width: 200px;
+}
+
+
+/* 블랙리스트 css */
+.blacklist-wrapper {
+    width: 250px;
+    padding: 20px 30px;
+}
+
+.blacklist-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blacklist-box {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+}
+
+.blacklist-image {
+    width: 85px;
+    height: 69px;
+
+    border-radius: 555px;
+
+    background-image: url('/public/mypage/profile1.png');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.blacklist-nickname {
+    width: 80px;
+}
+
+.accuse-modal-container {
+    position: fixed;
+    /* 화면 고정 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 반투명 배경 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* 다른 요소 위에 배치 */
+}
+
+.accuse-modal-container .event-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.accuse-modal-container .event-form span,
+.accuse-modal-container .event-form input[type="datetime-local"],
+.accuse-modal-container .event-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

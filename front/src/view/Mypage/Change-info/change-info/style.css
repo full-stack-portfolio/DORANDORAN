@@ -1,0 +1,420 @@
+#change-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#change-info .mypage-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#change-info .mypage-menu .menu-box {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+
+    font-size: 22px;
+    cursor: pointer;
+    gap: 17px;
+}
+
+
+#change-info .mypage-left-opstions {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    gap: 20px;
+}
+
+#change-info .background {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+
+    background-color: #FBFBFB;
+    border-radius: 50px;
+}
+
+#change-info .under-title-box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#change-info .under-title-box div {
+    width: 100%
+}
+
+#change-info .background .title {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    height: auto;
+}
+
+#change-info .input-box {
+    width: 100%;
+    height: 30px;
+
+    border-radius: 6px;
+    border: 1px solid #B4B4B4;
+
+    padding: 10px;
+
+}
+
+#change-info .change-pw {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #B4B4B4;
+    border-radius: 6px;
+    border: 1px solid #b4b4b4;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    margin-bottom: 15px;
+}
+
+#change-info .change-pw:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#change-info .changePWbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #b4b4b4;
+    background-color: #B4B4B4;
+    margin-top: 15px;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#change-info .changePWbtn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#change-info .input-boxs {
+    width: 100%;
+}
+
+#change-info .input-boxs input {
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+}
+
+#change-info .input-box3 {
+
+    border-radius: 6px;
+    border: 1px solid #B4B4B4;
+
+    padding: 10px;
+}
+
+#change-info .message-false {
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+    font-weight: 200;
+    color: red;
+    margin-top: 5px;
+}
+
+#change-info .tel-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* padding: 10px; */
+}
+
+#change-info .input-box2 {
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #B4B4B4;
+
+    padding: 10px;
+
+}
+
+#change-info .send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    border-radius: 6px;
+    background-color: #ABF6BE;
+    border: 1px solid #ABF6BE;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+#change-info .send-btn-false {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 58px;
+    border-radius: 6px;
+    background-color: #B4B4B4;
+    border: 1px solid #B4B4B4;
+
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#change-info .send-btn:hover {
+    border: 1px solid #79eb96;
+    background-color: #79eb96;
+}
+
+#change-info .message-false {
+    font-size: 12px;
+    font-weight: 200;
+    color: red;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+#change-info .message-true {
+    display: flex;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(0, 128, 0, 0.7);
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+#change-info .tel-box2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#change-info .btn-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#change-info .update-btn {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ABF6BE;
+    border-radius: 6px;
+    border: 1px solid #ABF6BE;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#change-info .update-btn:hover {
+    background-color: #79eb96;
+    border: 1px solid #79eb96;
+}
+
+#change-info .cancle-btn {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B4b4b4;
+    border-radius: 6px;
+    border: 1px solid #B4b4b4;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+#change-info .cancle-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#change-info .bottom-buttons {
+    width: 400px;
+    justify-content: space-between;
+}
+
+#change-info .secession-btn {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B4b4b4;
+    border-radius: 6px;
+    border: 1px solid #B4b4b4;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+#change-info .secession-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#modal .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: block;
+    z-index: 998;
+}
+
+#change-info #modal {
+    position: fixed;
+    background-color: white;
+    
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 24px;
+    border: 2px solid lightgray;
+    
+    z-index: 1000; /* overlay보다 위 */
+}
+
+#change-info #modal .modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 350px;
+}
+
+#change-info #modal .modal-container div {
+    width: 400px;
+}
+
+#change-info .modal-title {
+    margin-bottom: 45px;
+    font-size: 25px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+#change-info .input-box-in-modal {
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 48px;
+    padding: 10px;
+}
+
+#change-info .modal-btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 45px;
+    width: 100%;
+}
+
+#change-info .modal-patch {
+    border-radius: 6px;
+    background-color: #ABF6BE;
+    border: 1px solid #ABF6BE;
+    padding: 10px;
+    width: 50px;
+    height: 25px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#change-info .modal-patch:hover {
+    background-color: #79eb96;
+    border: 1px solid #79eb96;
+}
+
+#change-info .modal-cancle {
+    border-radius: 6px;
+    background-color: #b4b4b4;
+    border: 1px solid #b4b4b4;
+    padding: 10px;
+    width: 50px;
+    height: 25px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#change-info .modal-cancle:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+#change-info #modal div {
+    position: relative;
+    width: 100%
+}
+
+#modal .message-true {
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(0, 128, 0, 0.7);
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+#modal .message-false {
+    font-size: 12px;
+    font-weight: 200;
+    color: red;
+    margin-top: 5px;
+}

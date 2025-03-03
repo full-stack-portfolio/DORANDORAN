@@ -1,0 +1,134 @@
+.accuse-title {
+    font-weight: bold;
+    font-size: 24px;
+    width: 900px;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+    padding-bottom: 10px;
+}
+
+.accuse-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.accuse-type {
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accuse-type::after {
+    content: '';
+
+    position: absolute;
+    bottom: -2px;
+
+    left: 0;
+    width: 0;
+
+    height: 2px;
+
+    background-color: black;
+
+    transition: width 0.3s ease;
+}
+
+.accuse-type.active::after {
+    width: 100%;
+}
+
+.accuse-table {
+    display: flex;
+    width: 900px;
+    height: 50px;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.accuse-th,
+.accuse-tr {
+    flex: 1;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 15px;
+}
+
+.discussion-participants-icon {
+    background-image: url(/public/mypage/account.png);
+    width: 23px;
+    height: 20px;
+
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.mypage-discussion-room-top .search-bar {
+    display: flex;
+    flex: 9;
+    width: 100%;
+    /* justify-content: space-between; */
+    padding: 20px 0px;
+    border-radius: 50px;
+    background-color: #D7FFE1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.mypage-discussion-room-top .search-bar-and-sequence {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.mypage-discussion-room-top .search-bar div {
+    display: flex;
+}
+
+.mypage-discussion-room-top .magnifier-and-search-input {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.mypage-discussion-room-top .search-input {
+    font-size: 16px;
+    width: 86%;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background-color: #D7FFE1;
+}
+
+.mypage-discussion-room-top .search-button {
+    margin-right: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mypage-discussion-room-top .search-button:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.mypage-discussion-room-top .magnifier {
+    background-image: url(../../../image/magnifier.png);
+    width: 32.5px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+
+}
+
+.mypage-discussion-room-top .mypage-discussion-room {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    flex: 1;
+    margin-right: 40px;
+}
